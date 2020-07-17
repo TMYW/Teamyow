@@ -651,20 +651,19 @@ input:required {
 /* :: 8.0 Hero CSS */
 .welcome-area {
   position: relative;
-  background-position: right top;
+  
   z-index: 1; }
 
 .welcome-slides {
   position: relative;
-  background-position: right top;
+  
   z-index: 1;
   overflow: hidden; }
 
   .welcome-slides .owl-prev,
   .welcome-slides .owl-next {
+ 
 
-    background-position: right top;
-    
     -webkit-transition-duration: 500ms;
     -o-transition-duration: 500ms;
     transition-duration: 500ms;
