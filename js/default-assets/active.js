@@ -23,17 +23,17 @@
 
     // *********************************
     // :: 3.0 Welcome Slides Active Code
-    // *********************************
+    
 
     if ($.fn.owlCarousel) {
-        var welcomeSlider = $('.welcome-slides');
-        welcomeSlider.owlCarousel({
-            items: 1,
-            loop: true,
-            autoplay: true,
-            smartSpeed: 1000,
-            autoplayTimeout: 10000,
-            nav: true,
+       var welcomeSlider = $('.welcome-slides');
+      welcomeSlider.owlCarousel({
+           items: 1,
+           loop: false,
+           autoplay: true,
+           smartSpeed: 1000,
+           autoplayTimeout: 10000,
+            nav: false,
             navText: [('<i class="ti-arrow-left"></i>'), ('<i class="ti-arrow-right"></i>')]
         })
 
@@ -218,3 +218,4 @@
 
 
 })(jQuery);
+
