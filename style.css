@@ -829,7 +829,11 @@ input:required {
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: rgba(252, 96, 96, 0.9);
+    background-color: rgba(252, 96, 96, 0.4);
+
+    /* background-color: rgba(255, 255, 255, 0.3); */
+
+   
     opacity: 0;
     visibility: hidden;
     -webkit-transition-duration: 500ms;
@@ -996,7 +1000,7 @@ input:required {
     font-size: 14px;
     margin-bottom: 0; }
   .why-choose-us-content:hover, .why-choose-us-content:focus {
-    background-color: rgba(255, 96, 95, 0.15); }
+    background-color: rgba(255, 255, 255, 0.35); }
     .why-choose-us-content:hover .chosse-us-icon, .why-choose-us-content:focus .chosse-us-icon {
       background-color: #303C6C;
       box-shadow: 0 5px 15px 2px rgba(255, 255, 255, 0.15); }
