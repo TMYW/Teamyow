@@ -33,8 +33,8 @@
            autoplay: true,
            smartSpeed: 1000,
            autoplayTimeout: 10000,
-            nav: false,
-            navText: [('<i class="ti-arrow-left"></i>'), ('<i class="ti-arrow-right"></i>')]
+            // nav: false,
+            // navText: [('<i class="ti-arrow-left"></i>'), ('<i class="ti-arrow-right"></i>')]
         })
 
         welcomeSlider.on('translate.owl.carousel', function () {
@@ -119,6 +119,8 @@
             });
         });
     }
+
+
 
     // ***********************************
     // :: 6.0 Portfolio Button Active Code
@@ -215,6 +217,16 @@
     delay: 10,
     time: 1500
   });
+
+
+
+//   $('select').niceSelect();
+//   $('.img-pop-up').magnificPopup({
+//       type: 'image',
+//       gallery:{
+//       enabled:true
+//       }
+//   });
 
 
 })(jQuery);
