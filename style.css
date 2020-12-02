@@ -875,6 +875,7 @@ input:required {
   opacity: 1; }
 
 /* :: 11.0 About CSS */
+
 .about-us-content h3 {
   font-size: 36px;
   display: block;
@@ -883,8 +884,8 @@ input:required {
     .about-us-content h3 {
       font-size: 24px; } }
 .about-us-content .line {
-  height: 3px;
-  width: 140px;
+  height: 4px;
+  width: 285px;
   background-color: #fc6060;
   margin-bottom: 30px; }
 
