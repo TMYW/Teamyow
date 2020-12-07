@@ -2050,4 +2050,69 @@ input:required {
 }
 
 
+/* Added CSS */
+
+/* :: Store CSS */
+.store-content-area {
+  position: relative;
+  z-index: 1;
+  padding: 40px;
+  -webkit-box-shadow: 0 4px 20px 3px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 20px 3px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  text-align: center;
+  -webkit-transition-duration: 500ms;
+  -o-transition-duration: 500ms;
+  transition-duration: 500ms;
+  background-color: #ffffff; }
+  .store-content-area .member-thumb {
+    margin: 0 auto 40px;
+    width: 400px; }
+    .store-content-area .member-thumb img {
+      -webkit-transition-duration: 500ms;
+      -o-transition-duration: 500ms;
+      transition-duration: 500ms;
+      width: 100%; }
+      /* border-radius: 50%; } */
+  .store-content-area h5 {
+    -webkit-transition-duration: 500ms;
+    -o-transition-duration: 500ms;
+    transition-duration: 500ms;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 0; }
+  .store-content-area span {
+    -webkit-transition-duration: 500ms;
+    -o-transition-duration: 500ms;
+    transition-duration: 500ms;
+    color: #fc6060;
+    font-size: 12px;
+    text-transform: uppercase; }
+  .store-content-area .member-social-info {
+    position: relative;
+    z-index: 1;
+    margin-top: 30px; }
+    .store-content-area .member-social-info a {
+      color: #636363;
+      font-size: 16px;
+      margin: 0 10px;
+      -webkit-transition-duration: 500ms;
+      -o-transition-duration: 500ms;
+      transition-duration: 500ms; }
+      .store-content-area .member-social-info a:hover, .store-content-area .member-social-info a:focus {
+        color: #fc6060; }
+  .store-content-area:hover, .store-content-area:focus {
+    background-color: #ffffff; }
+    /* .store-content-area:hover .member-thumb img, .store-content-area:focus .member-thumb img {
+      -webkit-transform: rotate(25deg);
+      -ms-transform: rotate(25deg);
+      transform: rotate(25deg); } */
+    .store-content-area:hover h5,
+    .store-content-area:hover span, .store-content-area:focus h5,
+    .store-content-area:focus span {
+      color: #fc6060; }
+    .store-content-area:hover .member-social-info a, .store-content-area:focus .member-social-info a {
+      color: #000000; }
+      .store-content-area:hover .member-social-info a:hover, .store-content-area:hover .member-social-info a:focus, .store-content-area:focus .member-social-info a:hover, .store-content-area:focus .member-social-info a:focus {
+        color: #000000; }
 
